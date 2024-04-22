@@ -1,0 +1,20 @@
+server:
+  port: 8181
+
+spring:
+  flyway:
+    baselineOnMigrate: true
+  sql:
+    init:
+      platform: postgres
+  r2dbc:
+    url: jdbc:postgresql://postgres:5432/inventory
+    host: postgres
+    port: 5432
+    database: inventory
+    username: local
+    password: local
+    pool:
+      initial-size: 10
+      max-size: 10
+      max-idle-time: 30

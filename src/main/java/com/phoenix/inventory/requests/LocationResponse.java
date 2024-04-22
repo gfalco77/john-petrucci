@@ -1,0 +1,1 @@
+package com.phoenix.inventory.requests;import com.phoenix.inventory.domain.LocationType;import lombok.Data;@Datapublic class LocationResponse {  private String name;  private Long quantity;  private LocationType type;}

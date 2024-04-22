@@ -1,0 +1,1 @@
+package com.phoenix.inventory.domain;public enum LocationType {  STORE,  WAREHOUSE}

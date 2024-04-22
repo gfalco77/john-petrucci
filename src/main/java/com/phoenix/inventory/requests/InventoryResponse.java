@@ -1,0 +1,1 @@
+package com.phoenix.inventory.requests;import java.util.List;import lombok.Data;@Datapublic class InventoryResponse {  private String productId;  private Long totalQuantity;  private List<LocationResponse> locationResponses;}

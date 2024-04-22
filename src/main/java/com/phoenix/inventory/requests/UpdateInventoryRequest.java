@@ -1,0 +1,1 @@
+package com.phoenix.inventory.requests;import lombok.Data;@Datapublic class UpdateInventoryRequest {  private String locationName;  private Long quantity;}

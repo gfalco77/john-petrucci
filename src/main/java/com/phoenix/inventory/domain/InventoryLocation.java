@@ -1,0 +1,1 @@
+package com.phoenix.inventory.domain;import lombok.Builder;import lombok.Data;@Data@Builderpublic class InventoryLocation {  private Long inventoryId;  private Integer locationId;  private Long quantity;}
