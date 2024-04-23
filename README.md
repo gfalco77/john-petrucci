@@ -41,5 +41,6 @@ Or, if you don't want/need a background service you can just run:
 **LC_ALL="C" /opt/homebrew/opt/postgresql@16/bin/postgres -D /opt/homebrew/var/postgresql@16**
 
 # Create Pipeline 
-https://docs.aws.amazon.com/prescriptive-guidance/latest/patterns/deploy-a-ci-cd-pipeline-for-java-microservices-on-amazon-ecs.html
-https://docs.aws.amazon.com/codepipeline/latest/userguide/tutorials-github-gitclone.html 
+
+Create a github actions
+Follow this first https://aws.amazon.com/blogs/security/use-iam-roles-to-connect-github-actions-to-actions-in-aws/ 
