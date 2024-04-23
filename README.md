@@ -43,4 +43,4 @@ Or, if you don't want/need a background service you can just run:
 # Create Pipeline 
 
 Create a github actions
-Follow this first https://aws.amazon.com/blogs/security/use-iam-roles-to-connect-github-actions-to-actions-in-aws/ 
+Follow this first https://aws.amazon.com/blogs/security/use-iam-roles-to-connect-github-actions-to-actions-in-aws/ or alternatively create it with terraform https://blog.cloudsecuritypartners.com/oidc-for-github-actions/
