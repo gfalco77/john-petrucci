@@ -5,7 +5,7 @@
 APIs
 
 1. Create Stock for a product in a warehouse/store
-2. Update Stock 
+2. Update Stock
 3. Get Total Stock from all the warehouses/stores
 4. Get Stock from a store
 
@@ -40,7 +40,8 @@ To start postgresql@16 now and restart at login:
 Or, if you don't want/need a background service you can just run:
 **LC_ALL="C" /opt/homebrew/opt/postgresql@16/bin/postgres -D /opt/homebrew/var/postgresql@16**
 
-# Create Pipeline 
+# Create Pipeline
 
 Create a github actions
-Follow this first https://aws.amazon.com/blogs/security/use-iam-roles-to-connect-github-actions-to-actions-in-aws/ or alternatively create it with terraform https://blog.cloudsecuritypartners.com/oidc-for-github-actions/
+Follow this first https://aws.amazon.com/blogs/security/use-iam-roles-to-connect-github-actions-to-actions-in-aws/ or
+alternatively create it with terraform https://blog.cloudsecuritypartners.com/oidc-for-github-actions/
