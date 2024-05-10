@@ -14,8 +14,9 @@ public class StockConsumer {
 
     private final InventoryService inventoryService;
 
-    @KafkaListener(id = "myListener", topics = "stock-topic")
+    @KafkaListener(id = "myListener", topics = "stock-topic", containerFactory = "concurrentKafkaListenerContainerFactory")
     public void consume(@Payload ProductStock productStock) {
-        inventoryService.createInventoryLevel(InventoryRequestMapper.mapper.toInventoryRequest(productStock)).subscribe();
+        var inventoryRequest = InventoryRequestMapper.mapper.toInventoryRequest(productStock);
+        inventoryService.createInventoryLevel(inventoryRequest).subscribe();
     }
 }
